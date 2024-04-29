@@ -1,0 +1,64 @@
+:root{
+    --colBlack: rgb(6, 12, 14);
+    --colYellow: rgb(234, 174, 10);
+    --colBlue: rgb(76, 60, 221);
+    --colWhite: rgba(218, 228, 232, 0.966);
+
+}
+
+.bg-color-Y{
+    background-color: var(--colYellow);
+}
+
+.bg-color-B{
+    background-color: var(--colBlue);
+}
+
+.text-color-Y{
+    color: var(--colYellow);
+}
+
+.text-color-W{
+    color: var(--colWhite);
+}
+
+.bg-custom{
+    border: 5px solid var(--colYellow);
+    background-color: var(--colBlack);
+}
+
+.btn-custom{
+    height: 50px;
+    width: 200px;
+    border: 2px solid var(--colBlack);
+    border-radius: 10%;
+    background-color: var(--colYellow) ;
+    
+}
+
+button:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+}
+
+.card-custom{
+    height: 60px;
+    width: 600px;
+    background-color: var(--colBlack);
+    border: 5px double var(--colWhite);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: var(--colYellow);
+
+}
+
+svg:hover{
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+

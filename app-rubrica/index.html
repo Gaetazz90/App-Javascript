@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESERCIZIO RUBRICA</title>
+
+
+
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-6 text-center mt-4 bg-custom">
+                    <h1 class="text-color-Y"> RUBRICA AULAB </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                    <p> MOSTRA CONTATTI</p>
+                    <button class="btn-custom" id="btnshow">Show Contacts</button>
+                </div>
+
+                <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                    <p> AGGIUNGI CONTATTI</p>
+                    <button class="btn-custom" id="btnadd">Add Contact</button>
+                    
+                    <div class="row mt-2">
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Name</span>
+                                <input type="text" id="inputname" class="form-control" placeholder="Nome" 
+                                       aria-label="Nome" aria-describedby="basic-addon1" value="">
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Number</span>
+                                <input type="number" id="inputnumber" class="form-control" placeholder="Numero" 
+                                       aria-label="Numero" aria-describedby="basic-addon1" value="">
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                    <p> MODIFICA CONTATTI </p>
+                    <button class="btn-custom" id="btnremove">Modify Contact</button>
+                    <div class="row mt-2">
+                        <div class="col-12">
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="basic-addon1">Name</span>
+                                <input type="text" id="inputname2" class="form-control" placeholder="Nome" 
+                                       aria-label="Nome" aria-describedby="basic-addon1">
+                              </div>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container-fluid">
+            <div class="row mt-5 justify-content-center">
+                <div class="col-12 col-md-8 d-flex flex-column align-items-center" id="colCard">
+                    
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    
+    
+    
+    
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+     <!-- MY JAVASCRIPT -->
+    <script src="./main.js"></script>
+
+</body>
+</html>
