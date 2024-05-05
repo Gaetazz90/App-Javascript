@@ -1,13 +1,15 @@
-//Chiamata API al sito OpenWeatherMap per ottenere dati sul meteo di qualunque zona e rendere dinamica l'applicazione
-//(cioè all'inserimento di una determinata città, mostrerà i dati meteo di quella città)
-//Di default non ho impostato nessuna città, quindi al caricamento della pagina non mostra nessun luogo)
+/*Chiamata API al sito OpenWeatherMap per ottenere dati sul meteo di qualunque zona e rendere dinamica l'applicazione
+(cioè all'inserimento di una determinata città, mostrerà i dati meteo di quella città)
+Di default non ho impostato nessuna città, quindi al caricamento della pagina non mostra nessun luogo)*/
 
-// async function checkWeather(){
-//     let data = await fetch(apiUrl + `&appid=${apiKey}`).then((response) => response.json()).then((data)=>{
-//         return data;
-//     })
-// }
-// checkWeather();
+/*
+async function checkWeather(){
+     let data = await fetch(apiUrl + `&appid=${apiKey}`).then((response) => response.json()).then((data)=>{
+         return data;
+     })
+ }
+ checkWeather();
+*/
 
 
 //Cattura elementi necessari al funzionamento dell'app
