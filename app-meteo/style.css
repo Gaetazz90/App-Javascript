@@ -1,7 +1,7 @@
 
 .card-weather{
     width: 30%;
-    background:linear-gradient(to right, rgba(25, 62, 247, 0.912), rgb(18, 139, 183, 0.6) ) ;
+    background:linear-gradient(to right, rgb(18, 139, 183, 0.6), rgba(25, 62, 247, 0.912) ) ;
     border-radius: 20px;
     padding: 20px;
     margin: 30px auto;
